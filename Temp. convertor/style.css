@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+nav{
+    background-color: transparent;
+    height: 70px;
+    color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+main{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.outer{
+    background-image: url('bgc.png');
+    background-size: cover;
+    border: 2px solid gray;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: lightgoldenrodyellow;
+    font-family:'Courier New', Courier, monospace;
+    width: 923px;
+    height: 370px;
+}
+
+.inner{
+    background-color: transparent;
+    width: 200px;
+    border-radius: 50px;
+    height:30vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner input{
+    padding: 20px;
+    border:3px solid yellowgreen;
+    width: 10vw;
+    
+    border-radius: 20px;
+}
+
+#fahrenheit{
+    margin-left: 70px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+#celsius{
+    background-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+#fahrenheit::placeholder{
+    font-size: 1.3rem;
+}
+
+#celsius::placeholder{
+    font-size: 1.3rem;
+}
+
+.icon{
+    background-color: gray;
+    color: aliceblue;
+    padding:15px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.logo{
+    font-size: 50px;
+    color: red;
+}
+
